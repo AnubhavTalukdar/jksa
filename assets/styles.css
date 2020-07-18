@@ -3,6 +3,8 @@
 
 /* Fonts ends */
 
+/* Common styles */
+
 .social-links {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -10,8 +12,8 @@
 
 #mobile-banner {
   display: none;
+  color: white
 }
-
 
 .social-icons {
   width: 25px;
@@ -31,7 +33,6 @@
   border: 5px solid transparent;
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.05rem;
@@ -41,20 +42,13 @@
   display: none;
 }
 
+.text-link {
+  color: #ff5621 !important;
+  font-weight: 650 !important;
+}
+
 .carousel .carousel-inner{
-/* height: 500px; */
 width: auto;
-}
-
-.carousel-inner .carousel-item img{
-/* min-height:200px; */
-//prevent it from stretch in screen size < than 768px
-/* object-fit:cover; */
-}
-
-
-.section2 {
-  min-height: 298px;
 }
 
 .parallax {
@@ -62,6 +56,101 @@ width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.fa-clock {
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+}
+
+.fa-phone-square-alt {
+  color: white;
+}
+
+.off-white {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark-bg {
+  background-image: url('./images/background.jpg');
+}
+
+
+  /* Footer */
+
+.footer {
+  background-image: url('./images/footer_bg.jpg');
+}
+
+.footer h3, i, h4 {
+  color: white;
+}
+
+.footer-text {
+  color: #908c8cf7;
+}
+
+.footer-padding {
+  padding: 40px 40px 10px 60px;
+}
+
+.list-group-item {
+  background: transparent;
+  padding: 0.40rem 0.55rem;
+  border: 1.5px solid rgba(210, 180, 180, 0.14);
+}
+
+.footer img {
+  width: 350px;
+  height: 70px;
+}
+
+
+  /* Footer ends */
+
+
+/* Common styles end */
+
+/* About Us */
+
+.page-heading {
+  color: white;
+  position: relative;
+  top: 90px;
+  padding-left: 50px;
+}
+
+.img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+.img-container {
+  height: 425px;
+  overflow: hidden;
+}
+
+
+.aboutus-rows {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: justify;
+}
+
+/* About Us ends */
+
+
+
+.section2 {
+  min-height: 298px;
 }
 
 .funfact {
@@ -90,23 +179,6 @@ width: auto;
   margin-left: -3px;
 }
 
-.fa-clock {
-  padding-left: 0;
-  padding-right: 0;
-  color: white;
-}
-
-.fa-phone-square-alt {
-  color: white;
-}
-
-.off-white {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.dark-bg {
-  background-image: url('./images/background.jpg');
-}
 
 
 /* Image overlay effects */
@@ -118,7 +190,6 @@ width: auto;
   -moz-box-sizing:border-box;
   box-sizing: border-box;
 }
-
 
 .content {
   position: relative;
@@ -194,8 +265,7 @@ width: auto;
   text-transform: uppercase;
 }
 
-.default-content > h3
-{
+.default-content > h3 {
   font-size: 1.75rem;
 }
 
@@ -207,7 +277,6 @@ width: auto;
 .fadeIn-bottom{
   top: 70%;
 }
-
 
 .content:hover .content-overlay{
   opacity: 1;
@@ -223,7 +292,6 @@ width: auto;
   opacity: 1;
 }
 
-
 /* Image overlay effects end */
 
 #card-panel {
@@ -233,37 +301,6 @@ width: auto;
 
 
 
-/* Footer */
-
-.footer {
-  background-image: url('./images/footer_bg.jpg');
-}
-
-.footer h3, i, h4 {
-  color: white;
-}
-
-.footer-text {
-  color: #908c8cf7;
-}
-
-.footer-padding {
-  padding: 40px 40px 10px 60px;
-}
-
-.list-group-item {
-  background: transparent;
-  padding: 0.40rem 0.55rem;
-  border: 1.5px solid rgba(210, 180, 180, 0.14);
-}
-
-.footer img {
-  width: 350px;
-  height: 70px;
-}
-
-
-/* Footer ends */
 
 
 @media only screen and (min-width: 1266px) {
@@ -283,8 +320,6 @@ width: auto;
   padding-right: 0;
   padding-left: 0;
 }
-
-
 }
 
 
@@ -294,8 +329,6 @@ width: auto;
   display: block;
 }
 }
-
-
 
 @media only screen and (max-width: 768px) {
 
@@ -319,10 +352,6 @@ width: auto;
   font-size: 1.9rem;
 }
 
-.carousel .carousel-inner{
-//prevent it from adding a white space between carousel and container elements
-height:auto
- }
 
 .achievements {
   margin-top: 0.5rem;
@@ -384,8 +413,7 @@ height:auto
   font-size: 1.3rem;
 }
 
-.default-content > h3
-{
+.default-content > h3 {
   font-size: 1.3rem;
 }
 
@@ -464,8 +492,7 @@ height:auto
     padding-right: 15px;
   }
 
-  .icon-align
-  {
+  .icon-align {
     text-align: center;
   }
 
@@ -473,8 +500,7 @@ height:auto
     font-size: 2.5rem;
   }
 
-  .login-btn-padding
-  {
+  .login-btn-padding {
     padding-left: 2rem;
     padding-right: 2rem;
   }

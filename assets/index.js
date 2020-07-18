@@ -1,22 +1,12 @@
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip();
 
-  var stop = $("#section2").offset().top-400;
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > stop ) {
-            $(window).off("scroll");
-            $('.count').each(function () {
-                var $this = $(this);
-                jQuery({ Counter: 0 }).animate({ Counter: $this.attr("data") }, {
-                    duration: 1000,
-                    easing: 'swing',
-                    step: function () {
-                        $this.text(Math.ceil(this.Counter));
-                    }
-                });
+
+    $(".nav-link").each(function(){
+                if ($(this).prop('href') == window.location.href)
+                {
+                  $(this).addClass('text-link');
+                }
             });
-        }
-    });
 
 
     $("#facebook-icon") .mouseover(function () {
@@ -42,4 +32,23 @@ $(function () {
     }).mouseout(function () {
         this.src= "./assets/icons/youtube-hover.png"
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
+
+    var stop = $("#section2").offset().top-400;
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > stop ) {
+              $(window).off("scroll");
+              $('.count').each(function () {
+                  var $this = $(this);
+                  jQuery({ Counter: 0 }).animate({ Counter: $this.attr("data") }, {
+                      duration: 1000,
+                      easing: 'swing',
+                      step: function () {
+                          $this.text(Math.ceil(this.Counter));
+                      }
+                  });
+              });
+          }
+      });
 })
