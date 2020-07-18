@@ -1,0 +1,488 @@
+/* Fonts */
+
+
+/* Fonts ends */
+
+.social-links {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#mobile-banner {
+  display: none;
+}
+
+
+.social-icons {
+  width: 25px;
+}
+
+.icon-align {
+  text-align: right;
+}
+
+.phone-nos:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 5px solid rgba(255, 255, 255, 0.9) transparent;
+  border: 5px solid transparent;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.05rem;
+}
+
+.login-navbar {
+  display: none;
+}
+
+.carousel .carousel-inner{
+/* height: 500px; */
+width: auto;
+}
+
+.carousel-inner .carousel-item img{
+/* min-height:200px; */
+//prevent it from stretch in screen size < than 768px
+/* object-fit:cover; */
+}
+
+
+.section2 {
+  min-height: 298px;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funfact {
+  margin-top: 3rem;
+  height: inherit;
+  color: white;
+}
+
+.funfact-cell {
+  height: inherit;
+}
+
+.count {
+  color: white;
+  display: inline;
+  font-size: 2.1rem;
+}
+
+.achievements {
+  margin-top: 0.4rem;
+  font-size: 1.12rem;
+}
+
+.plus {
+  display: inline;
+  margin-left: -3px;
+}
+
+.fa-clock {
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+}
+
+.fa-phone-square-alt {
+  color: white;
+}
+
+.off-white {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark-bg {
+  background-image: url('./images/background.jpg');
+}
+
+
+/* Image overlay effects */
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+
+.content {
+  position: relative;
+  width: 95%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.default-content {
+  position: absolute;
+  text-align: center;
+  padding-left: 20em;
+  padding-right: 20em;
+  width: 100%;
+  top: 50%;
+  font-size: 1px;
+  left: 50%;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.default-content > h3
+{
+  font-size: 1.75rem;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.85em;
+}
+
+.fadeIn-bottom{
+  top: 70%;
+}
+
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content:hover .default-content{
+  opacity: 0;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+
+/* Image overlay effects end */
+
+#card-panel {
+  padding: 5rem 2rem;
+  background-image: url("./images/panel_bg.jpg");
+}
+
+
+
+/* Footer */
+
+.footer {
+  background-image: url('./images/footer_bg.jpg');
+}
+
+.footer h3, i, h4 {
+  color: white;
+}
+
+.footer-text {
+  color: #908c8cf7;
+}
+
+.footer-padding {
+  padding: 40px 40px 10px 60px;
+}
+
+.list-group-item {
+  background: transparent;
+  padding: 0.40rem 0.55rem;
+  border: 1.5px solid rgba(210, 180, 180, 0.14);
+}
+
+.footer img {
+  width: 350px;
+  height: 70px;
+}
+
+
+/* Footer ends */
+
+
+@media only screen and (min-width: 1266px) {
+
+.padding-special-left {
+  padding-left: 6rem;
+}
+
+.padding-special-right {
+  padding-right: 6rem;
+}
+}
+
+@media only screen and (max-width: 1037px) {
+
+.magic-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.funfact {
+  margin-top: 3rem;
+}
+
+.login-navbar {
+  display: block;
+}
+
+#desktop-banner {
+  display: none;
+}
+
+#mobile-banner {
+  display: block;
+}
+
+.counter {
+  font-size: 1.9rem;
+}
+
+.carousel .carousel-inner{
+//prevent it from adding a white space between carousel and container elements
+height:auto
+ }
+
+.achievements {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.gap-on-collapse {
+  padding-bottom: 1rem;
+}
+
+.social-links {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btn-special {
+    display: block;
+    width: 100%;
+}
+
+.padding-on-collapse {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.padding-special-left {
+  padding-left: 2rem;
+}
+
+.padding-special-right {
+  padding-right: 2rem;
+}
+
+.footer-padding {
+  padding: 40px 30px 10px 30px;
+}
+
+.footer {
+  font-size: 100%;
+}
+
+.funfact-cell {
+  padding-left: 3px;
+  padding-right: 0;
+}
+
+.login-btn-padding
+{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#card-panel {
+  padding: 4rem 1.5rem;
+}
+
+.content-details h3 {
+  letter-spacing: 0.11em;
+  font-size: 1.3rem;
+}
+
+.default-content > h3
+{
+  font-size: 1.3rem;
+}
+
+}
+
+@media only screen and (max-width: 620px) {
+
+  .content-details h3 {
+    letter-spacing: 0.11em;
+    font-size: 1rem;
+  }
+
+  .default-content h3
+  {
+    font-size: 1.01rem;
+    letter-spacing: 0.06em;
+  }
+
+  .count, .plus {
+    font-size: 1.8rem;
+  }
+
+  .achievements {
+      font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .count, .plus {
+    font-size: 1.5rem;
+  }
+
+  .achievements {
+      font-size: 0.8rem;
+    }
+
+  div.funfact > img {
+    width: 70%;
+  }
+
+  .section2 {
+    min-height: 200px;
+  }
+
+  .funfact {
+    margin-top: 2rem;
+  }
+
+  .footer img {
+    width: 250px;
+    height: 50px;
+  }
+
+  .footer h3 {
+    font-size: 125%;
+  }
+
+  .padding-on-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .padding-special-left {
+    padding-left: 1.3rem;
+  }
+
+  .col-6, .col-8, .col-4, .col-6, .col-lg-7, .col-md-8, .col{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .social-links {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .icon-align
+  {
+    text-align: center;
+  }
+
+  .fa-3x {
+    font-size: 2.5rem;
+  }
+
+  .login-btn-padding
+  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .content-details > h3 {
+    display: none;
+  }
+
+  .content-details {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content:hover .content-details {
+    top: 55%;
+    left: 50%;
+    opacity: 1;
+  }
+
+}
