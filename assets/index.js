@@ -2,35 +2,43 @@ $(function () {
 
 
     $(".nav-link").each(function(){
-                if ($(this).prop('href') == window.location.href)
-                {
-                  $(this).addClass('text-link');
-                }
-            });
+      if ($(this).prop('href') == window.location.href)
+      {
+        $(this).addClass('text-link');
+      }
+    });
 
 
     $("#facebook-icon") .mouseover(function () {
-      this.src= "./assets/icons/facebook.png"
-    }).mouseout(function () {
-      this.src= "./assets/icons/facebook-hover.png"
+        this.src= "./assets/icons/facebook.png";
+        $(this).css('width', '30px');
+   }).mouseout(function () {
+        this.src= "./assets/icons/facebook-hover.png";
+        $(this).css('width', '25px');
     });
 
     $("#instagram-icon") .mouseover(function () {
-       this.src= "./assets/icons/instagram.png"
+        this.src= "./assets/icons/instagram.png";
+        $(this).css('width', '30px');
     }).mouseout(function () {
-        this.src= "./assets/icons/instagram-hover.png"
+      this.src= "./assets/icons/instagram-hover.png";
+      $(this).css('width', '25px');
     });
 
     $("#twitter-icon") .mouseover(function () {
-       this.src= "./assets/icons/twitter.png"
+        this.src= "./assets/icons/twitter.png";
+        $(this).css('width', '30px');
     }).mouseout(function () {
-        this.src= "./assets/icons/twitter-hover.png"
+        this.src= "./assets/icons/twitter-hover.png";
+        $(this).css('width', '25px');
     });
 
     $("#youtube-icon") .mouseover(function () {
-       this.src= "./assets/icons/youtube.png"
+        this.src= "./assets/icons/youtube.png";
+        $(this).css('width', '30px');
     }).mouseout(function () {
-        this.src= "./assets/icons/youtube-hover.png"
+        this.src= "./assets/icons/youtube-hover.png";
+        $(this).css('width', '25px');
     });
 
     $('[data-toggle="tooltip"]').tooltip();
