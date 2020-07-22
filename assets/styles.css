@@ -482,17 +482,17 @@
 }
 }
 
-
 @media only screen and (max-width: 992px) {
 
   .login-navbar {
   display: block;
-}
+  }
 
   .aboutus-rows {
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .aboutus-h1, .aboutus-h2 {
     text-align: center;
   }
@@ -693,4 +693,20 @@
     opacity: 1;
   }
 
+}
+
+@media only screen and (max-width: 360px) {
+
+  .list-group-item {
+    padding-left: 0;
+  }
+
+  .footer-padding {
+    padding: 40px 15px 10px 25px;
+  }
+
+  .gap-on-collapse {
+    padding-bottom: 1rem;
+    padding-right: 5px;
+  }
 }
