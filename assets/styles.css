@@ -1,4 +1,4 @@
-/* Fonts */
+/* Fonts start */
 
 
 /* Fonts ends */
@@ -47,8 +47,8 @@
     font-weight: 650 !important;
   }
 
-  .carousel .carousel-inner{
-  width: auto;
+  .carousel .carousel-inner {
+    width: auto;
   }
 
   .parallax {
@@ -106,13 +106,109 @@
       height: 70px;
     }
 
-
   /* Footer ends */
+
+  @media only screen and (max-width: 500px) {
+
+    .section2 {
+      min-height: 200px;
+    }
+
+    .footer img {
+      width: 250px;
+      height: 50px;
+    }
+
+    .footer h3 {
+      font-size: 125%;
+    }
+
+    .padding-on-collapse {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .col-6, .col-8, .col-4, .col-6, .col-lg-7, .col-md-8, .col{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .social-links {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .icon-align {
+      text-align: center;
+    }
+
+    .fa-3x {
+      font-size: 2.5rem;
+    }
+
+    .login-btn-padding {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .list-group-item {
+      padding-left: 0;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .login-navbar {
+        display: block;
+      }
+
+    #desktop-banner {
+      display: none;
+    }
+
+    #mobile-banner {
+      display: block;
+    }
+
+    .gap-on-collapse {
+      padding-bottom: 1rem;
+    }
+
+    .social-links {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .padding-on-collapse {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .btn-special {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-padding {
+      padding: 40px 30px 10px 30px;
+    }
+
+    .footer {
+      font-size: 100%;
+    }
+
+    .login-btn-padding {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+
+  }
 
 
 /* Common styles end */
 
-/* About Us */
+/* about.html starts */
 
   .page-heading {
     color: white;
@@ -131,7 +227,6 @@
     right: 0;
     margin: auto;
   }
-
 
   .img-container {
     height: 425px;
@@ -157,7 +252,6 @@
   .bgdefault {
       background: #24cdd5;
   }
-
 
   #partners-slider .item {
       text-align: center;
@@ -191,12 +285,35 @@
       cursor: pointer;
   }
 
-/* About Us ends */
+
+  @media only screen and (max-width: 992px) {
+
+    .aboutus-rows {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .aboutus-h1, .aboutus-h2 {
+      text-align: center;
+    }
+
+  }
+
+  @media only screen and (max-width: 1037px) {
+
+    .magic-padding {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+  }
+
+/* about.html ends */
 
 
 
 
-/* Home starts */
+/* index.html starts */
 
   .section2 {
     min-height: 298px;
@@ -227,7 +344,6 @@
     display: inline;
     margin-left: -3px;
   }
-
 
 
   /* Image overlay effects */
@@ -348,10 +464,105 @@
     background-image: url("./images/panel_bg.jpg");
   }
 
-/* Home ends */
+  @media only screen and (max-width: 500px) {
+
+    .count, .plus {
+      font-size: 1.5rem;
+    }
+
+    .achievements {
+        font-size: 0.8rem;
+      }
+
+    div.funfact > img {
+      width: 70%;
+    }
+
+    .funfact {
+      margin-top: 2rem;
+    }
+
+    .content-details > h3 {
+      display: none;
+    }
+
+    .content-details {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .content:hover .content-details {
+        top: 55%;
+        left: 50%;
+        opacity: 1;
+      }
+
+  }
+
+  @media only screen and (max-width: 620px) {
+
+    .content-details h3 {
+      letter-spacing: 0.11em;
+      font-size: 1rem;
+    }
+
+    .default-content h3 {
+      font-size: 1.01rem;
+      letter-spacing: 0.06em;
+    }
+
+    .count, .plus {
+      font-size: 1.8rem;
+    }
+
+    .achievements {
+        font-size: 1rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .achievements {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+      }
+
+    .funfact {
+        margin-top: 3rem;
+      }
+
+    .funfact-cell {
+      padding-left: 3px;
+      padding-right: 0;
+    }
+
+    #card-panel {
+      padding: 4rem 1.5rem;
+    }
+
+    .content-details h3 {
+      letter-spacing: 0.11em;
+      font-size: 1.3rem;
+    }
+
+    .default-content > h3 {
+      font-size: 1.3rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .login-navbar {
+      display: block;
+    }
+  }
+
+/* index.html ends */
 
 
-/* Champions starts */
+/* our_champion.html starts */
 
   .divider.parallax1 {
     -webkit-box-shadow: 0px 0px 32px 6px rgba(0,0,0,0.31);
@@ -458,243 +669,4 @@
   }
 
 
-/* Champions ends */
-
-
-
-
-@media only screen and (min-width: 1266px) {
-
-  .padding-special-left {
-    padding-left: 6rem;
-  }
-
-  .padding-special-right {
-    padding-right: 6rem;
-  }
-}
-
-@media only screen and (max-width: 1037px) {
-
-  .magic-padding {
-  padding-right: 0;
-  padding-left: 0;
-}
-}
-
-
-@media only screen and (max-width: 992px) {
-
-  .login-navbar {
-  display: block;
-  }
-
-  .aboutus-rows {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .aboutus-h1, .aboutus-h2 {
-    text-align: center;
-  }
-
-}
-
-@media only screen and (max-width: 768px) {
-
-  .funfact {
-    margin-top: 3rem;
-  }
-
-  .login-navbar {
-    display: block;
-  }
-
-  #desktop-banner {
-    display: none;
-  }
-
-  #mobile-banner {
-    display: block;
-  }
-
-  .counter {
-    font-size: 1.9rem;
-  }
-
-
-  .achievements {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-  }
-
-  .gap-on-collapse {
-    padding-bottom: 1rem;
-  }
-
-  .social-links {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .btn-special {
-      display: block;
-      width: 100%;
-  }
-
-  .padding-on-collapse {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .padding-special-left {
-    padding-left: 2rem;
-  }
-
-  .padding-special-right {
-    padding-right: 2rem;
-  }
-
-  .footer-padding {
-    padding: 40px 30px 10px 30px;
-  }
-
-  .footer {
-    font-size: 100%;
-  }
-
-  .funfact-cell {
-    padding-left: 3px;
-    padding-right: 0;
-  }
-
-  .login-btn-padding
-  {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .padding {
-      padding: 6rem 0;
-  }
-
-  #card-panel {
-    padding: 4rem 1.5rem;
-  }
-
-  .content-details h3 {
-    letter-spacing: 0.11em;
-    font-size: 1.3rem;
-  }
-
-  .default-content > h3 {
-    font-size: 1.3rem;
-  }
-
-}
-
-@media only screen and (max-width: 620px) {
-
-  .content-details h3 {
-    letter-spacing: 0.11em;
-    font-size: 1rem;
-  }
-
-  .default-content h3
-  {
-    font-size: 1.01rem;
-    letter-spacing: 0.06em;
-  }
-
-  .count, .plus {
-    font-size: 1.8rem;
-  }
-
-  .achievements {
-      font-size: 1rem;
-  }
-
-}
-
-@media only screen and (max-width: 500px) {
-
-  .count, .plus {
-    font-size: 1.5rem;
-  }
-
-  .achievements {
-      font-size: 0.8rem;
-    }
-
-  div.funfact > img {
-    width: 70%;
-  }
-
-  .section2 {
-    min-height: 200px;
-  }
-
-  .funfact {
-    margin-top: 2rem;
-  }
-
-  .footer img {
-    width: 250px;
-    height: 50px;
-  }
-
-  .footer h3 {
-    font-size: 125%;
-  }
-
-  .padding-on-collapse {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .padding-special-left {
-    padding-left: 1.3rem;
-  }
-
-  .col-6, .col-8, .col-4, .col-6, .col-lg-7, .col-md-8, .col{
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .social-links {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .icon-align {
-    text-align: center;
-  }
-
-  .fa-3x {
-    font-size: 2.5rem;
-  }
-
-  .login-btn-padding {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .content-details > h3 {
-    display: none;
-  }
-
-  .content-details {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .content:hover .content-details {
-    top: 55%;
-    left: 50%;
-    opacity: 1;
-  }
-
-  .list-group-item {
-    padding-left: 0;
-  }
-
-}
+/* our_champion.html ends */
