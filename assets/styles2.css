@@ -38,6 +38,13 @@
     font-size: 1.05rem;
   }
 
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff5621 !important;
+    font-weight: 500;
+    font-size: 1.05rem;
+  }
+
   .login-navbar {
     display: none;
   }
@@ -108,55 +115,6 @@
 
   /* Footer ends */
 
-  @media only screen and (max-width: 500px) {
-
-    .section2 {
-      min-height: 200px;
-    }
-
-    .footer img {
-      width: 250px;
-      height: 50px;
-    }
-
-    .footer h3 {
-      font-size: 125%;
-    }
-
-    .padding-on-collapse {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-
-    .col-6, .col-8, .col-4, .col-6, .col-lg-7, .col-md-8, .col{
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    .social-links {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-
-    .icon-align {
-      text-align: center;
-    }
-
-    .fa-3x {
-      font-size: 2.5rem;
-    }
-
-    .login-btn-padding {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-
-    .list-group-item {
-      padding-left: 0;
-    }
-
-  }
-
   @media only screen and (max-width: 768px) {
 
     .login-navbar {
@@ -204,6 +162,63 @@
     }
 
   }
+
+  @media only screen and (max-width: 500px) {
+
+
+    .footer img {
+      width: 250px;
+      height: 50px;
+    }
+
+    .footer h3 {
+      font-size: 125%;
+    }
+
+    .padding-on-collapse {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .col-6, .col-8, .col-4, .col-6, .col-lg-7, .col-md-8, .col{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .social-links {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .icon-align {
+      text-align: center;
+    }
+
+    .fa-3x {
+      font-size: 2.5rem;
+    }
+
+    .login-btn-padding {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .list-group-item {
+      padding-left: 0;
+    }
+
+  }
+
+  @media only screen and (max-width: 361px) {
+
+    .navbar-brand > img {
+      height: 40px;
+      width: 200px;
+
+    }
+
+  }
+
 
 
 /* Common styles end */
@@ -286,6 +301,15 @@
   }
 
 
+  @media only screen and (max-width: 1037px) {
+
+    .magic-padding {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+  }
+
   @media only screen and (max-width: 992px) {
 
     .aboutus-rows {
@@ -295,15 +319,6 @@
 
     .aboutus-h1, .aboutus-h2 {
       text-align: center;
-    }
-
-  }
-
-  @media only screen and (max-width: 1037px) {
-
-    .magic-padding {
-      padding-right: 0;
-      padding-left: 0;
     }
 
   }
@@ -321,7 +336,6 @@
   }
 
   .funfact {
-    margin-top: 3rem;
     height: inherit;
     color: white;
   }
@@ -465,61 +479,11 @@
     background-image: url("./images/panel_bg.jpg");
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 992px) {
 
-    .count, .plus {
-      font-size: 1.5rem;
+    .login-navbar {
+      display: block;
     }
-
-    .achievements {
-        font-size: 0.8rem;
-      }
-
-    div.funfact > img {
-      width: 70%;
-    }
-
-    .funfact {
-      margin-top: 2rem;
-    }
-
-    .content-details > h3 {
-      display: none;
-    }
-
-    .content-details {
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    .content:hover .content-details {
-        top: 55%;
-        left: 50%;
-        opacity: 1;
-      }
-
-  }
-
-  @media only screen and (max-width: 620px) {
-
-    .content-details h3 {
-      letter-spacing: 0.11em;
-      font-size: 1rem;
-    }
-
-    .default-content h3 {
-      font-size: 1.01rem;
-      letter-spacing: 0.06em;
-    }
-
-    .count, .plus {
-      font-size: 1.8rem;
-    }
-
-    .achievements {
-        font-size: 1rem;
-    }
-
   }
 
   @media only screen and (max-width: 768px) {
@@ -529,9 +493,9 @@
         font-size: 1rem;
       }
 
-    .funfact {
-        margin-top: 3rem;
-      }
+    .section2 {
+      min-height: 225px;
+    }
 
     .funfact-cell {
       padding-left: 3px;
@@ -553,12 +517,70 @@
 
   }
 
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 620px) {
 
-    .login-navbar {
-      display: block;
+    .content-details h3 {
+      letter-spacing: 0.11em;
+      font-size: 1rem;
     }
+
+    .section2 {
+      min-height: auto;
+    }
+
+    .default-content h3 {
+      font-size: 1.01rem;
+      letter-spacing: 0.06em;
+    }
+
+    .count, .plus {
+      font-size: 1.8rem;
+    }
+
+    .achievements {
+        font-size: 0.9rem;
+    }
+
   }
+
+  @media only screen and (max-width: 500px) {
+
+    .count, .plus {
+      font-size: 1.5rem;
+    }
+
+    .section2 {
+      min-height: 225px;
+    }
+
+    .achievements {
+    font-size: 0.8rem;
+    }
+
+
+    div.funfact > img {
+      width: 70%;
+    }
+
+    .content-details > h3 {
+      display: none;
+    }
+
+    .content-details {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .content:hover .content-details {
+        top: 55%;
+        left: 50%;
+        opacity: 1;
+      }
+
+  }
+
+
+
 
 /* index.html ends */
 
