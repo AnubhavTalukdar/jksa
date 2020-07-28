@@ -90,7 +90,7 @@
       background-image: url('./images/footer_bg.jpg');
     }
 
-    .footer h3, i, h4 {
+    .footer h4, i, h3 {
       color: white;
     }
 
