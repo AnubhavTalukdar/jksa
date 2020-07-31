@@ -38,7 +38,6 @@
     font-size: 1.05rem;
   }
 
-
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #ff5621 !important;
     font-weight: 500;
@@ -62,7 +61,10 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
     background-size: cover;
+    /* background-size: contain; */
+    /* max-width: 100%; */
   }
 
   .fa-clock {
@@ -108,9 +110,13 @@
       border: 1.5px solid rgba(210, 180, 180, 0.14);
     }
 
-    .footer img {
+    #footer-logo {
       width: 350px;
       height: 70px;
+    }
+
+    .pre-loader {
+      display: none;
     }
 
   /* Footer ends */
@@ -166,7 +172,7 @@
   @media only screen and (max-width: 500px) {
 
 
-    .footer img {
+    #footer-logo {
       width: 250px;
       height: 50px;
     }
@@ -218,7 +224,6 @@
     }
 
   }
-
 
 
 /* Common styles end */
