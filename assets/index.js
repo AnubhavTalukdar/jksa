@@ -9,7 +9,7 @@ $(function () {
     });
 
 
-    $("#facebook-icon") .mouseover(function () {
+    $("#facebook-icon").mouseover(function () {
         this.src= "./assets/icons/facebook.png";
         $(this).css('width', '30px');
    }).mouseout(function () {
@@ -17,7 +17,7 @@ $(function () {
         $(this).css('width', '25px');
     });
 
-    $("#instagram-icon") .mouseover(function () {
+    $("#instagram-icon").mouseover(function () {
         this.src= "./assets/icons/instagram.png";
         $(this).css('width', '30px');
     }).mouseout(function () {
@@ -25,7 +25,7 @@ $(function () {
       $(this).css('width', '25px');
     });
 
-    $("#twitter-icon") .mouseover(function () {
+    $("#twitter-icon").mouseover(function () {
         this.src= "./assets/icons/twitter.png";
         $(this).css('width', '30px');
     }).mouseout(function () {
@@ -33,7 +33,7 @@ $(function () {
         $(this).css('width', '25px');
     });
 
-    $("#youtube-icon") .mouseover(function () {
+    $("#youtube-icon").mouseover(function () {
         this.src= "./assets/icons/youtube.png";
         $(this).css('width', '30px');
     }).mouseout(function () {
