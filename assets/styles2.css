@@ -111,8 +111,8 @@
     }
 
     #footer-logo {
-      width: 350px;
-      height: 70px;
+      width: 300px;
+      height: 60px;
     }
 
     .pre-loader {
@@ -359,7 +359,25 @@
 
 /* about.html ends */
 
+/* faq.html starts */
 
+.card-body {
+  padding: 1.75rem;
+  padding-top: 1.2rem;
+}
+
+.card-header:hover {
+  background-color: #ccd1d5;
+}
+
+.btn-link:hover, .btn-link:focus {
+  text-decoration: none;
+}
+
+
+
+
+/* faq.html ends */
 
 
 /* index.html starts */
